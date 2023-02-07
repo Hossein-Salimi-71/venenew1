@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {font-family: "Lato", sans-serif}
+    .mySlides {display: none}
+    </style>    
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="demo" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DEMO</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="news" class="w3-bar-item w3-button">NEWS</a>
+        <a href="contact" class="w3-bar-item w3-button">CONTACT</a>        
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">VENEURON <img src="{{ user_image3 }}" class="w3-round w3-margin-bottom" alt="Random Name" width="80"height="40"></h2>
+    <p class="w3-opacity"><i>AI-Powered Drug Screening Tool</i></p>
+    <p class="w3-justify">  </p>
+<h3 class="w3-wide">Our Team</h3>
+<p class="w3-justify">Our start-up consisted of a founder team with expertise including: AI Engineering, Business, and Marketing.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p><b>Hossein Salimi</b></p>
+        <img src="{{ user_image }}" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p><i>• A PhD holder in the field of biomedical engineering with strong technical skills</i></p>      
+        <p><i>• Over 10 years of experience in leading complex mechatronic and robotic projects</i></p>      
+        <p><i>• Led technical team in a start-up company in the field of smart home technology</i></p>      
+        <p><i>• Collaborating with companies and research centers such as Harvard Medical School</i></p>      
+      </div>
+      <div class="w3-third">
+        <p><b>Tina Lungsee</b></p>
+        <img src="{{ user_image1 }}" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p><i>• A contrarian with over 7 years of investment, finance and operation experience</i></p>      
+        <p><i>• Founding member of a social impact PropTech startup who played a strategic role in transforming an idea to a successful go-to market company that closed on its last round of funding</i></p>      
+        <p><i>• Experienced investment product designer who helped create a novel asset class that makes homeownership more accessible</i></p>      
+        <p><i>• Team leader who built high-performing teams in various areas within the organization</i></p> 
+      </div>
+      <div class="w3-third">
+        <p><b>Paul Hemburrow</b></p>
+        <img src="{{ user_image2 }}" class="w3-round" alt="Random Name" style="width:60%">
+        <p><i>• A skilled leader who has been in the healthcare sector for over 20 years</i></p>      
+        <p><i>• Has led critical functions like strategy, sales, marketing, and project management</i></p>      
+        <p><i>• Formed and launched a consulting company where he led projects focused on improving organizational performance, strategy development, and deployment</i></p>      
+        <p><i>• Worked 12 years at Novartis Pharmaceutical, holding progressive positions in sales, marketing, strategy, and business development</i></p> 
+      </div>
+    </div>
+  </div>
+
+
+
+<img src="{{ user_image }}" alt="User Image"width="100"height="100"/>
+<img src="{{ user_image1 }}" alt="User Image"width="100"height="100"/>
+
+</body>
+</html>
